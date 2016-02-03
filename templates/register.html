@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <h1>Register</h1>
+  <form method="POST">
+    <table>
+      <tbody>
+        <tr>
+          <td style="text-align:right">Login:</td>
+          <td>
+            <input name="login" pattern="^[A-Za-z]([-_]?[A-Za-z0-9]+)*$"></input>
+          </td>
+        </tr>  
+        <tr>
+          <td style="text-align:right">Password:</td>
+          <td>
+            <input name="password" type="password" pattern="^.{6,}$"></input>
+          </td>
+        </tr>  
+        <tr>
+          <td style="text-align:right">Name:</td>
+          <td>
+            <input name="name"></input>
+          </td>
+        </tr>  
+        <tr>
+          <td style="text-align:right">eMail:</td>
+          <td>
+            <input name="email" type="email"></input>
+          </td>
+        </tr>  
+  
+        <tr>
+          <td></td>
+          <td style="text-align:right">
+            <input type="submit" value="Register"></input>
+          </td>
+        </tr>  
+      </tbody>
+    </table>
+  </form>
+
+</html>
